@@ -1,0 +1,18 @@
+version: "3"
+services:
+  reverseproxy:
+    build:
+      context: .
+    image: noura22/proxy 
+  backend_user:
+    build:
+      context: ../../udacity-c3-restapi-user
+    image: noura22/backend-user:v2
+  backend_feed:
+    build:
+      context: ../../udacity-c3-restapi-feed:v3
+    image: noura22/feed
+  frontend:
+    build:
+      context: ../../udacity-c3-frontend  
+    image: noura22/frontend
