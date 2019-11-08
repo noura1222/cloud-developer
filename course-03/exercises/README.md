@@ -1,8 +1,8 @@
 # Docker Hub Images 
 https://hub.docker.com/u/noura22
 
-# Trabis CI Screenshots
-(travis-ci-screenshots) folder contains a screenshots of builds on configured Travis CI
+# Travis CI Screenshots
+Travis CI screenshots is on this directory
 
 # Build and Push Docker Images
 Apply the following for each service:
