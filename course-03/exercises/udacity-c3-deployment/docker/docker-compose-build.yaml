@@ -10,8 +10,8 @@ services:
     image: noura22/backend-user:v2
   backend_feed:
     build:
-      context: ../../udacity-c3-restapi-feed:v3
-    image: noura22/feed
+      context: ../../udacity-c3-restapi-feed
+    image: noura22/feed:v3
   frontend:
     build:
       context: ../../udacity-c3-frontend  
